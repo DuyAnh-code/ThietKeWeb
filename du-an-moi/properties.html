@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng giá chứng khoán</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        caption {
+            font-size: 1.5em;
+            margin: 10px;
+            color: #333;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        thead th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+        tbody tr:hover {
+            background-color: #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        td {
+            background-color: #fff;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #dd000b;
+        }
+        .highlight-green{
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        .highlight-yellow{
+            font-weight: bold;
+            color: rgb(97, 97, 9);
+        }
+        .highlight-pink{
+            font-weight: bold;
+            color: rgb(255, 51, 85);
+        }
+        .highlight-blue{
+            font-weight: bold;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>Bảng giá chứng khoán</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">CK</th>
+                <th rowspan="2">Trần</th>
+                <th rowspan="2">Sàn</th>
+                <th rowspan="2">TC</th>
+                <th colspan="6">Bên mua</th>
+            </tr>
+            <tr>
+                <th>Giá 3</th>
+                <th>KL 3</th>
+                <th>Giá 2</th>
+                <th>KL 2</th>
+                <th>Giá 1</th>
+                <th>KL 1</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>AAA</td>
+                <td class="highlight-pink">9.30</td>
+                <td class="highlight-blue">8.12</td>
+                <td class="highlight-yellow">12.10</td>
+                <td class="highlight-green">5.23</td>
+                <td class="highlight-green">12</td>
+                <td class="highlight-green">25</td>
+                <td class="highlight-green">34</td>
+                <td class="highlight-green">24.5</td>
+                <td class="highlight-green">14.6</td>
+                
+            </tr>
+            <tr>
+                <td>AAM</td>
+                <td class="highlight">10.25</td>
+                <td>9.50</td>
+                <td class="highlight">6.23</td>
+                <td>250</td>
+                <td class="highlight">10.00</td>
+                <td>180</td>
+                <td class="highlight">9.75</td>
+                <td>220</td>
+                <td class="highlight">9.50</td>
+                
+            </tr>
+            <tr>
+                <td>AAT</td>
+                <td class="highlight">8.32</td>
+                <td>7.90</td>
+                <td class="highlight">15.10</td>
+                <td>300</td>
+                <td class="highlight">14.80</td>
+                <td>250</td>
+                <td class="highlight">14.50</td>
+                <td>220</td>
+                <td class="highlight">14.00</td>
+                
+            </tr>
+            <tr>
+                <td>ABR</td>
+                <td class="highlight">7.65</td>
+                <td>6.50</td>
+                <td class="highlight">5.22</td>
+                <td>400</td>
+                <td class="highlight">5.00</td>
+                <td>350</td>
+                <td class="highlight">4.85</td>
+                <td>300</td>
+                <td class="highlight">4.70</td>
+                
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
