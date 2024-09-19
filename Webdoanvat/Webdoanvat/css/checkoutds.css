@@ -1,0 +1,49 @@
+/* checkoutds.css */
+.checkout-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.order-summary {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.order-details {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.order-details label {
+    display: block;
+    margin-top: 10px;
+}
+
+.order-details input,
+.order-details select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+#place-order {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#place-order:hover {
+    background-color: #e68900;
+}

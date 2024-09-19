@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh Toán</title>
+    <link rel="stylesheet" href="css\checkoutds.css">
+</head>
+<body>
+    <header>
+        <h1>Thanh Toán</h1>
+    </header>
+    <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="cart.html">Giỏ hàng</a>
+    </nav>
+    <div class="checkout-container">
+        <h2>Thông tin đơn hàng</h2>
+        <div class="order-summary">
+            <!-- Nội dung đơn hàng sẽ được thêm vào đây bằng JavaScript -->
+        </div>
+        <div class="order-details">
+            <h3>Chi tiết thanh toán</h3>
+            <label for="name">Họ và tên:</label>
+            <input type="text" id="name">
+            <label for="address">Địa chỉ giao hàng:</label>
+            <input type="text" id="address">
+            <label for="payment-method">Phương thức thanh toán:</label>
+            <select id="payment-method">
+                <option value="credit-card">Thẻ tín dụng</option>
+                <option value="paypal">PayPal</option>
+                <option value="cod">Thanh toán khi nhận hàng</option>
+            </select>
+            <button id="place-order">Đặt hàng</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Đồ ăn vặt Ngon. Tất cả quyền được bảo lưu.</p>
+    </footer>
+    <script src="js\checkoutds.js"></script>
+</body>
+</html>
