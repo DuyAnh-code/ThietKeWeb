@@ -1,0 +1,32 @@
+h1{
+    font-size: 1.5em;
+    color :blueviolet
+}
+P{
+    font-size: 16px;
+    font-style: oblique;
+    font-variant: small-caps;
+    color: blue;
+}
+h2{
+    font-size: 1em;
+    font-style: oblique;
+    font-variant: small-caps;
+    color: darkcyan;
+}
+h3{
+    font-size: 16px;
+    font-style: oblique;
+    font-variant: small-caps;
+    color: orchid;
+}
+h4{
+    font-size: 16px;
+    font-style: oblique;
+    font-variant: small-caps;
+    color: lawngreen;
+}
+body{
+    font-family: Verdana, sans-serif;
+    font-size: 100%;
+}

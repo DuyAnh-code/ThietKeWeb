@@ -1,0 +1,25 @@
+h1 {
+     font-size: 30px; line-height: 1.1em; 
+     color: darkgreen;
+
+     text-shadow: -.3em -.3em silver;
+    }
+
+    div { font-size: 15px; width: 10em; border: 1px solid red;}
+
+    .div1 { line-height: 1.1; }
+
+    .div2 { line-height: 1.1em;  }
+p#doan1{ text-indent: 2em;color :rgb(47, 0, 255); }
+p#doan2 { text-indent: 25%;color :rgb(255, 145, 0); }
+p#doan3 { text-indent: -35px; }
+p#doan1 { text-align: center; }
+
+p#doan2 { text-align: left; }
+
+p#doan3 { text-align: right; }
+a {
+
+    text-decoration: upercase;
+
+}

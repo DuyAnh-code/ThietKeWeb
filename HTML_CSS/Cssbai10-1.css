@@ -1,0 +1,28 @@
+blockquote {
+
+    border: 4px dashed;
+
+    color: #a7bbc4;
+    background-color: #515281;
+  }
+  blockquote1{
+    border: 4px dashed;
+
+      padding: 10px;
+
+      color: #246b57;
+
+      background-color:#7ccfaf;
+
+      background-clip: content-box;
+  }
+  body{
+    background-color: #8c98a7;
+  }
+  h1{
+    color: #6e1919;
+
+        background-color: #FFFFFF;
+
+        opacity: .25;
+  }

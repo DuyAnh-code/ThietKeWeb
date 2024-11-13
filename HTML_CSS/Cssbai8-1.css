@@ -1,0 +1,18 @@
+h2{
+    color:  red;
+}
+*{color: red;}
+
+#yellowcolor { color: yellow; }
+.greencolor { color: green; }
+
+[class] { color: violet; }
+h3, p, #yellowcolor { color: blue }
+li em { color: red }
+h1 em, h2 em, h3 em { color: red; }
+li h3 em { color: red; }
+p { color: red; }
+p.violetcolor { color: violet; }
+p { line-height: 1.2em; }
+blockquote p { line-height: 1em; }
+p.intro { line-height: 2em; }

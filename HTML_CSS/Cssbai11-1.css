@@ -1,0 +1,51 @@
+li:first-child { color: red; }
+/* Định dạng label khi người dùng đánh dấu chọn */
+
+input:checked + label {
+
+    color: red;
+
+}
+
+/* Định dạng ô chọn khi được chọn */
+
+input[type="checkbox"]:checked {
+
+    box-shadow: 0 0 0 3px hotpink;
+
+}
+p::first-letter {
+
+    color: white;
+
+    background-color: #333;
+
+    border-radius: 2px;
+
+    font-size: 200%;
+
+    box-shadow: 3px 3px 0 yellow;
+
+    padding: 6px 3px;
+
+    margin-right: 5px;
+
+}
+p::before {
+
+    content: "Đọc thêm: ";
+
+    color: red;
+
+    font-weight: bold;
+
+  }
+  p::after {
+
+    content: "(Kết thúc)";
+
+    color: red;
+
+    font-weight: bold;
+
+  }

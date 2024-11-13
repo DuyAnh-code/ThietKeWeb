@@ -1,0 +1,85 @@
+/* Cài đặt nền và kiểu chung cho body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* Định dạng cho khối thông tin đầu trang */
+  #info {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #info h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  #info p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  /* Định dạng cho các phần của menu */
+  h2 {
+    color: #2c3e50;
+    font-size: 28px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  
+  #appetizers, #entrees {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 20px;
+  }
+  
+  /* Định dạng cho danh sách món ăn */
+  dl {
+    margin: 0;
+    padding: 0;
+  }
+  
+  dt {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2980b9;
+  }
+  
+  dd {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  /* Định dạng cho các món mới */
+  .newitem {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #27ae60;
+  }
+  
+  /* Thêm hiệu ứng hover cho các món mới */
+  dt.newitem:hover {
+    color: #c0392b;
+    cursor: pointer;
+  }
+  
+  /* Định dạng cảnh báo cho sức khỏe */
+  .warning {
+    font-size: 14px;
+    color: #e74c3c;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
